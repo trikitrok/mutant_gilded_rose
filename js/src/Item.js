@@ -1,4 +1,4 @@
-export default class Item {
+export class Item {
   constructor (name, sellIn, quality) {
     this.name = name;
     this.sellIn = sellIn;

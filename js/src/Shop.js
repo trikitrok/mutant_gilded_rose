@@ -1,6 +1,6 @@
-export default class Shop {
-  constructor(someItems) {
-    this.items = someItems;
+export class Shop {
+  constructor(items) {
+    this.items = items;
   }
 
   updateQuality() {
